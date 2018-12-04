@@ -3,12 +3,16 @@
 
 ## -2. 对爬取数据进行处理：
 ### 在政府网站获取历年各省市行政编码，使用python的gb2260传入地区名对应的行政编码后，获得省市区三级行政名，对爬取的文件进行“年省市区.txt”重命名，爬取的统计结果使用pyecharts绘制3D柱状图和地形图，代码文件为spider_result_plot.py；
+![省级统计](https://github.com/xhlgogo/Chinese-NLP-Newcomer/blob/master/pyecharts_result/%E6%94%BF%E5%BA%9C%E5%B7%A5%E4%BD%9C%E6%8A%A5%E5%91%8A%E7%9C%81%E7%BA%A7%E7%BB%9F%E8%AE%A1.png)
+![年代统计](https://github.com/xhlgogo/Chinese-NLP-Newcomer/blob/master/pyecharts_result/%E6%94%BF%E5%BA%9C%E6%8A%A5%E5%91%8A%E5%B9%B4%E4%BB%A3%E7%BB%9F%E8%AE%A1.png)
 
 ## -3. 分词：
 ### 使用哈工大ltp的python封装：pyltp,分词任务为IO密集型，因此选择python多线程分词，代码文件为wordcut_pyltp.py；
 
 ## -4. lda：
 ### 使用gensim对537个省级政府工作报告进行lda文本主题分类，分类结果使用pyecharts绘制时间线散点图，代码文件为gensim_lad.py；
+![lda主题关键词（动图需下载查看pyecharts_result/Timeline.html)](https://github.com/xhlgogo/Chinese-NLP-Newcomer/blob/master/pyecharts_result/gensim_lad.png)
 
 ## -5. k-means：
 ### 使用sklearn对537个省级政府工作报告进行k-means文本聚类，分类结果使用pyecharts二维散点图，代码文件为sklearn_kmeans.py.
+![k-means聚类结果](https://github.com/xhlgogo/Chinese-NLP-Newcomer/blob/master/pyecharts_result/k-means%E8%81%9A%E7%B1%BB.png)
