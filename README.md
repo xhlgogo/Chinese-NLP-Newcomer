@@ -11,7 +11,7 @@
 
 ## -4. lda：
 ### 使用gensim对537个省级政府工作报告进行lda文本主题分类，分类结果使用pyecharts绘制时间线散点图，代码文件为gensim_lad.py；
-![lda主题关键词（动图需下载查看pyecharts_result/Timeline.html)](https://github.com/xhlgogo/Chinese-NLP-Newcomer/blob/master/pyecharts_result/gensim_lad.png)
+![lda主题关键词](https://github.com/xhlgogo/Chinese-NLP-Newcomer/blob/master/pyecharts_result/lda_timeline.gif)
 
 ## -5. k-means：
 ### 使用sklearn对537个省级政府工作报告进行k-means文本聚类，分类结果使用pyecharts二维散点图，代码文件为sklearn_kmeans.py.
