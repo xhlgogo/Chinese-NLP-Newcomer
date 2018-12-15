@@ -16,3 +16,11 @@
 ## -5. k-means：
 ### 使用sklearn对537个省级政府工作报告进行k-means文本聚类，分类结果使用pyecharts二维散点图，代码文件为sklearn_kmeans.py.
 ![k-means聚类结果](https://github.com/xhlgogo/Chinese-NLP-Newcomer/blob/master/pyecharts_result/k-means%E8%81%9A%E7%B1%BB.png)
+
+## -6. 贝叶斯分类：
+### 使用sklearn对537个省级政府工作报告进行多项式贝叶斯MultinomialNB和高斯贝叶斯GaussianNB分类：
+#### 0）样本集为去除人名、地名、机构名的政府工作报告中，具有相同语法结构的句子，每个报告为一个样本，每个样本包含若干条重复两次以上的相同语法结构语句；
+#### 1）每次训练随机按省市比例抽取样本3/4作为训练集，剩余1/4作为测试集；
+#### 2）使用卡方分布chi2选取最佳文本特征数；
+#### 3）结果表明：在742个特征时MultinomialNB在测试集上准确率能达到0.8378378378378378；在769个特征时GaussianNB在测试集上准确率能达到0.7297297297297297
+#### 4）主函数见My_Bayes.py，工具函数见tools.py，
