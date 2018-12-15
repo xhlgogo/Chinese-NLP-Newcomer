@@ -24,4 +24,4 @@
 #### 2）使用卡方分布chi2选取最佳文本特征数；
 #### 3）结果表明：在742个特征时MultinomialNB在测试集上准确率能达到0.8378378378378378；在769个特征时GaussianNB在测试集上准确率能达到0.7297297297297297
 #### 4）主函数见My_Bayes.py，工具函数见tools.py，
-#### 5）不同卡方分布选择的特征数下的分类得分见文件“Multinomial/GaussianNB_score_dict-去除人名地名机构名.json”
+#### 5）不同卡方分布选择的特征数下的分类得分见文件“pyecharts_result\Multinomial(GaussianNB)_score_dict-去除人名地名机构名.json”
