@@ -2,7 +2,7 @@
 ### 利用教育网的便利爬取全国所有省市的政府工作报告，使用selenium驱动chrome在静默状态下获得网页html,使用BeautifulSoup获取文本内容，累计获取13000余份政府工作报告；
 
 ## -2. 对爬取数据进行处理：
-### 在政府网站获取历年各省市行政编码，使用gb2260第三方lib库传入地区名对应的行政编码后，获得省市区三级行政名，对爬取的文件进行“年省市区.txt”重命名，爬取的统计结果使用pyecharts绘制3D柱状图和地形图，代码文件为spider_result_plot.py；
+### 在政府网站获取历年各省市行政编码，使用gb2260第三方lib库传入地区名对应的行政编码后，获得省市区三级行政名，对爬取的文件进行“年省市区.txt”重命名，爬取的统计结果使用pyecharts绘制3D柱状图和地形图，代码文件为pyecharts_plot.py；
 ![省级统计](https://github.com/xhlgogo/Chinese-NLP-Newcomer/blob/master/pyecharts_result/map.gif)
 ![年代统计](https://github.com/xhlgogo/Chinese-NLP-Newcomer/blob/master/pyecharts_result/3Dbar.gif)
 
