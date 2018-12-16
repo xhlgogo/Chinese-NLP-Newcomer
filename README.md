@@ -14,7 +14,7 @@
 ![lda主题关键词](https://github.com/xhlgogo/Chinese-NLP-Newcomer/blob/master/pyecharts_result/lda_timeline.gif)
 
 ## -5. k-means：
-### 使用sklearn对537个省级政府工作报告进行k-means文本聚类，分类结果使用pyecharts二维散点图，代码文件为sklearn_kmeans.py.
+### 使用sklearn对537个省级政府工作报告进行k-means文本聚类，分类结果使用pyecharts二维散点图，代码文件为My_KMeans.py.
 ![k-means聚类结果](https://github.com/xhlgogo/Chinese-NLP-Newcomer/blob/master/pyecharts_result/k-means%E8%81%9A%E7%B1%BB.png)
 
 ## -6. 贝叶斯分类：
