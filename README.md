@@ -7,7 +7,7 @@
 ![年代统计](https://github.com/xhlgogo/Chinese-NLP-Newcomer/blob/master/pyecharts_result/3Dbar.gif)
 
 ## -3. 分词：
-### 使用哈工大ltp的python封装：pyltp,分词任务为IO密集型，因此选择python多线程分词，代码文件为wordcut_pyltp.py；
+### 使用哈工大ltp的python封装：pyltp,分词任务为IO密集型，因此选择python多线程分词，代码文件为cut_pyltp.py；
 
 ## -4. lda：
 ### 使用gensim对537个省级政府工作报告进行lda文本主题分类，分类结果使用pyecharts绘制时间线散点图，代码文件为lda_model.py；
