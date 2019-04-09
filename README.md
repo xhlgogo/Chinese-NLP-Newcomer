@@ -26,3 +26,8 @@
 #### 3）结果表明：在742个特征时MultinomialNB在测试集上准确率能达到0.8378378378378378；在769个特征时GaussianNB在测试集上准确率能达到0.7297297297297297
 #### 4）主函数见My_Bayes.py，工具函数见tools.py，
 #### 5）不同卡方分布选择的特征数下的分类得分见文件“pyecharts_result\Multinomial(GaussianNB)_score_dict-去除人名地名机构名.json”
+
+## -7. 基于gensim的doc2vec最佳文档嵌入模型分类：
+### 期刊在投，不便展示，训练代码可见知乎专栏https://zhuanlan.zhihu.com/c_1069570763173982208
+### 取最佳嵌入维度和滑动窗口训练得到的doc2vec文档向量，结合xgboost，3/4训练，1/4预测后分省市进行的分类结果统计。
+![省域分类结果](https://github.com/xhlgogo/Chinese-NLP-Newcomer/blob/master/pyecharts_result/%E7%9C%81%E5%9F%9F%E5%88%86%E7%B1%BB%E7%BB%93%E6%9E%9C.png)
